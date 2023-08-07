@@ -1,0 +1,47 @@
+.header__container { 
+    position: relative;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+/* header socials styling */
+.header__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+    gap: 1.4rem;
+    font-size: 1rem;
+}
+  
+  .header__socials::after {
+    content: "";
+    width: 4rem;
+    height: 1px;
+    background: var(--color-primary-variant);
+  }
+
+  .intro__text {
+    margin: 1% 26%;
+  }
+
+  /* buttons styling */
+.cta {
+    display: flex;
+    font-weight: 600;
+    font-size: 0.8rem;
+    gap: 1.2rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  /* scroll down */
+.scroll__down {
+    position: absolute;
+    right: 1%;
+    /* margin-top: 6rem; */
+    letter-spacing: 2px;
+    transform: rotate(90deg);
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
