@@ -41,10 +41,10 @@ body {
   line-height: 1.7;
 }
 
-.container {
+/* .container {
   width: var(--container-width-lg);
   margin: 0 auto;
-}
+} */
 
 h1, h2, h3, h4, h5 {
   font-weight: 500;
@@ -54,8 +54,13 @@ h1 {
   font-size: 2.5rem;
 }
 
+p {
+  font-size: 0.92rem;
+}
+
 section {
-  margin-top: 8rem;
+  margin: 8rem auto 0rem;
+  width: var(--container-width-lg);
 }
 
 section > h2, section > h5 {

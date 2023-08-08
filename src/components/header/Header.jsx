@@ -1,12 +1,10 @@
-import React from 'react'
 import Socials from './Socials';
-import Cta from './Cta';
 import './header.css';
 
 const Header = () => {
   return (
-    <header>
-      <div className=".container header__container">
+    <header className="header__container">
+      <div>
         <h5>Hello, I'm</h5>
         <h1>Winfred Edube</h1>
         <h5 className="text-light">Fullstack Developer</h5>
@@ -16,8 +14,10 @@ const Header = () => {
             you need coded, don’t hestiate to contact me.
           </p>
       </div>
+      <div className="socials__container">
+      <a href="#contact" className="cta__btn btn btn-primary">Get In Touch</a> 
       <Socials />
-      <Cta />
+      </div>
       <a href="#contact" className="scroll__down">
         Scroll Down
       </a>
