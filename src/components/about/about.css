@@ -1,0 +1,30 @@
+.title {
+    text-align: start;
+}
+
+.title::after {
+    content: "";
+    display: block;
+  margin-left: 8%;
+    width: 20rem;
+    height: 1px;
+    background: var(--color-primary-variant);
+}
+
+.about__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5%;
+  align-items: center;
+}
+
+.about__image {
+  width: 25rem;
+  border-radius: 1rem;
+}
+
+.resume {
+  margin-top: 1rem;
+  font-weight: 600;
+    font-size: 0.85rem;
+}
