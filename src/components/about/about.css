@@ -1,13 +1,22 @@
 .title {
-    text-align: start;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  position: relative;
+  white-space: nowrap;
+  /* margin: 10px 0px 1px; */
+    /* text-align: start; */
 }
 
 .title::after {
     content: "";
     display: block;
-  margin-left: 8%;
-    width: 20rem;
-    height: 1px;
+    position: absolute;
+    left: 6%;
+    /* margin-right: -2rem; */
+  /* margin-left: 8%;
+    /*width: 20rem;
+    height: 1px; */
     background: var(--color-primary-variant);
 }
 
