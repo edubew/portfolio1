@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { AiOutlineHome, AiOutlineUser, AiOutlineExperiment } from 'react-icons/ai';
-import { FaBarsStaggered } from 'react-icons/fa';
+import { BsBarChartSteps } from 'react-icons/bs';
 import { BiMessageRoundedDetail } from 'react-icons/bi';
+import './navbar.css';
 
 const Navbar = () => {
     const [activeNav, setActiveNav] = useState('#home');
@@ -26,7 +27,7 @@ const Navbar = () => {
         onClick={() => setActiveNav('#skills')}
         className={activeNav === '#skills' ? 'active' : ''}
       >
-        <FaBarsStaggered />
+        <BsBarChartSteps />
       </a>
       <a
         href="#projects"
