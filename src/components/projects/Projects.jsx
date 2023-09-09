@@ -4,9 +4,15 @@ import animeData from "../../assets/animeData.png";
 import bookstore from "../../assets/bookstore.png";
 import calcApp from "../../assets/calcApp.png";
 import leaderboardApp from "../../assets/leaderboardApp.png";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import './projects.css';
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2500 });
+  }, []);
   const data = [
     {
       id: 1,
@@ -70,14 +76,14 @@ const Projects = () => {
     },
   ];
   return (
-    <section>
+    <section id='projects'>
       <h2 className="title">My Recent Work</h2>
       <div className="projects__container">
         {data.map(
           ({ id, image, title, description, live, github, technologies }) => {
             return (
               <article key={id} className="project__item">
-                <div className="project__image">
+                <div data-aos="fade-up" className="project__image">
                   <img src={image} alt={title} />
                 </div>
                 <div className="project__content">
@@ -89,8 +95,8 @@ const Projects = () => {
                     ))}
                   </ul>
                   <div className="demo__links">
-                    <a href={live}>Live</a>
-                    <a href={github}>Source</a>
+                    <a className="btn-primary" href={live}>Live</a>
+                    <a className="btn-primary" href={github}>Source</a>
                   </div>
                 </div>
               </article>

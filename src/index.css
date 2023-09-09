@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --color-bg: #070322;
   --color-bg-variant: #0f1b29;
@@ -26,10 +30,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 body {

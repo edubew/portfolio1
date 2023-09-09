@@ -39,14 +39,13 @@
 
 .scroll__down {
   position: absolute;
-  right: 20%;
+  right: 4%;
   margin-top: -6rem;
   letter-spacing: 2px;
   transform: rotate(90deg);
   font-weight: 400;
   font-size: 0.9rem;
 }
-
 
 @media screen and (max-width: 768px) {
   .header__container {

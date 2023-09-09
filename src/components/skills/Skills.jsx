@@ -83,7 +83,7 @@ const icons = [
 
 const Skills = () => {
   return (
-    <section>
+    <section id='skills'>
       <h2 className="title">My Skills</h2>
 
       <div className="skills__container">

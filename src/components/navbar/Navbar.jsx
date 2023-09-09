@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { AiOutlineHome, AiOutlineUser, AiOutlineExperiment } from 'react-icons/ai';
 import { BsBarChartSteps } from 'react-icons/bs';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
+import { CgMenuRound } from 'react-icons/cg';
 import { BiMessageRoundedDetail } from 'react-icons/bi';
 import './navbar.css';
 
@@ -65,7 +66,7 @@ const Navbar = () => {
         </button>
       </nav>
       <button type="submit" onClick={toggleMenu} className="nav__btn">
-        <FaBars />
+        <CgMenuRound />
       </button>
     </div>
   );
