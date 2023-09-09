@@ -1,14 +1,19 @@
 import Socials from './Socials';
 import './header.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2500 });
+  }, []);
   return (
     <header id='home' className="header__container">
       <div>
         <h5>Hello, I am</h5>
         <h1>Winfred Edube</h1>
         <h5 className="text-light">Fullstack Developer</h5>
-        <p className="intro__text">
+        <p data-aos="fade-up" className="intro__text">
             I can help you build a product , feature or website. Look through some
             of my work and experience! If you like what you see and have a project
             you need coded, dont hestiate to contact me.
