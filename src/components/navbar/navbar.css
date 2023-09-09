@@ -1,29 +1,108 @@
 nav {
-    background: rgba(0, 0, 0, 0.3);
-    width: max-content;
-    padding: 0.6rem;
-    z-index: 2;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    right: 4%;
-    top: 22%;
-    transform: translateX(-50%);
-    border-radius: 2rem;
-    backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.3);
+  /* background-color: #fff; */
+  width: max-content;
+  padding: 1.2rem 0.4rem;
+  z-index: 100;
+  position: fixed;
+  display: grid;
+  /* flex-direction: column; */
+  gap: 1rem;
+  right: 4%;
+  top: 22%;
+  transform: translateX(-22%);
+  border-radius: 2rem;
+  backdrop-filter: blur(15px);
 }
 
-a {
-    background: transparent;
+nav > a {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  color: var(--color-light);
+  font-size: 1.2rem;
+  position: relative;
+}
+
+/* nav > a:hover {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 15px 4px var(--color-primary);
+} */
+
+.nav__title {
+  display: block;
+  /* position: absolute; */
+  transition: .3s;
+  font-size: 12px;
+  background: #404042;
+  /* right: -20%;
+  top: 0.5rem;
+  transform: translateX(-50%); */
+  transition: opacity 0.3s ease;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 5px;
+  z-index: 3;
+}
+
+/* .nav__title::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translate(-40%, -50%) rotate(45deg);
+} */
+
+/* nav > a:hover > .nav__title {
+  display: block;
+  opacity: 1; */
+  /* right: calc(50% + 10px); */
+/* } */
+
+.nav__btn {
+  display: none;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  nav {
+    right: 2%;
+    left: auto;
+    top: 0;
+    float: right;
+    transform: none;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
     padding: 1rem;
-    border-radius: 50%;
-    display: flex;
-    color: var(--color-light);
-    font-size: 1.5rem;
-}
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
 
-a:hover {
-    background: rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 15px 4px var(--color-primary);
+  nav > a {
+    border-radius: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .nav__btn {
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .responsive__nav {
+    transform: none;
+  }
+
+  .close__btn {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+  }
 }

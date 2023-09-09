@@ -13,15 +13,19 @@ const About = () => {
         </div>
         <div className="about__content">
           <p>
-            I'm Edube, an enthusiatic software developer actively honing my
-            skills and pursuing growth at Microverse(a remote pair-programming
-            school). While I lack formal job espeience, my passion for
-            technology drives me to embrace challenges daily. With a solid
-            foundation in Software Development, I'm well-versed in Html5, css3,
-            javascript, react, ruby, mysql, ruby on rails and redux. What sets
-            me apart is my proactive approach to addressing challenges and
-            adaptability to indusrty shifts. I thrive in collaborative settings
-            an I'm eager to contibute to dynamic teams.
+            I am a software developer who is passionate about learning and
+            growing in my field. My love for development started back in college
+            when I had a chance encounter with a peer speaker at an ICT
+            conference.This encounter got me super excited about coding. Driven
+            by this newfound passion and a desire to broaden my horizons beyond
+            HTML and CSS, I enrolled at Microverse, a remote programming school
+            that uses collaboration and real-world projects to teach
+            development, and it has opened up a whole new world for me.Ever
+            since, I have been on a relentless pursuit of knowledge. I find joy
+            in solving complex problems and creating user-friendly applications.I am
+            dedicated to keeping pace with the ever-evolving world of
+            technology. I see every challenge as an opportunity to learn and
+            grow. I thrive in collaborative settings and I am eager to contibute to dynamic teams.
             <br />
             <br />
             Seeking an opportunity to translate my knowledge into real-world

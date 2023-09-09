@@ -1,4 +1,3 @@
-import React from 'react';
 import atom from '../../assets/atom.png';
 import css from '../../assets/css.png';
 import git from '../../assets/git.png';

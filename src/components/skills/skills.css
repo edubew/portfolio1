@@ -1,25 +1,25 @@
 .title {
-    text-align: start;
+  text-align: start;
 }
 
 .title::after {
-    content: "";
-    display: block;
+  content: "";
+  display: block;
   margin-left: 8%;
-    width: 20rem;
-    height: 1px;
-    background: var(--color-primary-variant);
+  width: 20rem;
+  height: 1px;
+  background: var(--color-primary-variant);
 }
 
 .skills__container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 2rem;
-    row-gap: 4rem;
-    place-items: center;
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  row-gap: 4rem;
+  place-items: center;
+  align-items: center;
 }
 
 .skill__item img {
-    width: 2.5rem;
+  width: 2.5rem;
 }
