@@ -2,6 +2,7 @@ import Socials from './Socials';
 import './header.css';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Header = () => {
   useEffect(() => {

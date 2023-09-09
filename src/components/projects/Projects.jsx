@@ -4,7 +4,6 @@ import animeData from "../../assets/animeData.png";
 import bookstore from "../../assets/bookstore.png";
 import calcApp from "../../assets/calcApp.png";
 import leaderboardApp from "../../assets/leaderboardApp.png";
-import { useEffect } from "react";
 import './projects.css';
 
 const Projects = () => {
