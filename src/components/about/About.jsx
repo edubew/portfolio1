@@ -33,7 +33,7 @@ const About = () => {
             determination. Let us connect to explore how I can bring value to
             your projects.
           </p>
-          <a href={Resume} download className="resume btn btn-primary">
+          <a href={Edube's Resume} download className="resume btn btn-primary">
             Download Resume
           </a>
         </div>
