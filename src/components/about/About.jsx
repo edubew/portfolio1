@@ -1,5 +1,5 @@
 import winnie from "../../assets/winnie.png";
-import Resume from "../../assets/Resume.pdf";
+import Resume from "../../assets/Edube's Resume.pdf";
 import "./about.css";
 
 const About = () => {
